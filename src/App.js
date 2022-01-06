@@ -1,6 +1,7 @@
 import "./App.css";
 import EffectHookCounterOne from "./components/effect/EffectHookCounterOne";
 import EffectHookMouse from "./components/effect/EffectHookMouse";
+import EffectInterval from "./components/effect/EffectInterval";
 import MouseContainer from "./components/effect/MouseContainer";
 import ClassCounter from "./components/state/ClassCounter";
 import HookCounter from "./components/state/HookCounter";
@@ -26,6 +27,7 @@ function App() {
       <EffectHookCounterOne />
       {/* <EffectHookMouse /> */}
       <MouseContainer />
+      <EffectInterval />
     </div>
   );
 }
